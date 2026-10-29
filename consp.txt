@@ -1,0 +1,6 @@
+•	RAN (Radio Access Network): 
+        The part of a telecommunications system that connects individual devices to the core network through radio connections.
+•	gNodeB (gNB) / eNodeB (eNB): 
+        The 5G and 4G base stations (antennas) that your UE Simulator will test under heavy load.
+•	Core Network (5GC / EPC): 
+        The central part of the mobile network that handles authentication, routing,and billing.
