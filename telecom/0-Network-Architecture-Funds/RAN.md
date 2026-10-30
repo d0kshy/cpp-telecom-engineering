@@ -1,3 +1,23 @@
+# Telecommunication
+is a transmitting information over a distance.
+
+### Traffic types:
+1. Voice
+2. Data
+3. Image
+4. Video
+5. Multimedia
+
+(All of them contain different bandwidth, latency, jitter, loss requirements).
+
+### Features of the New Network:
+1. Support data-hungry applications
+2. Support medium to carry multimedia
+3. Minimize delay
+4. Handle and transfer and data format
+5. QoS Guarantees
+6. Encryption at every layer
+
 # RAN (Radio Access Network)
 * connects individual devices to other parts of a network through a radio connections; 
 * links user equipment, such as a cellphone, computer or any remotely controlled machine, over a fiber or wireless Backhaul connection to the core network, which manages subscriber information, location and more; 
@@ -18,8 +38,10 @@ Now, with LTE Advanced and 5G, improvements are coming in the form of centralize
 4. A single handset or phone could be connected at the same time to multiple RANs, sometimes called dual-mode handsets.
 
 
+
 # gNodeB (gNB) / eNodeB (eNB): 
-### gNodeB
+### gNodeB - the foundational base station for 5G NR (New Radio) networks
+
 
 ### eNodeB
   
@@ -27,4 +49,7 @@ Now, with LTE Advanced and 5G, improvements are coming in the form of centralize
 
 # Core Network (5GC / EPC): 
 The central part of the mobile network that handles authentication, routing, and billing.
+1. **Authentication** - Is this SIM card allowed on the network? 
+2. **Mobility** - Tracking the phone as it moves from one tower to another so a call doesn't drop.
+3. **Routing** - Connecting the phone's request to the actual public internet.
 
