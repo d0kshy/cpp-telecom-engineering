@@ -1,12 +1,13 @@
 # RF Propagation & Modulation Schemes
 ### Modulation Schemes
 Radiowave - is a sinusoid, and it is required to be changed to transfer data.
+
 **What it is:**
 - **Modulation** - is the process of altering the properties of a radio wave (its amplitude, frequency, or phase) to encode binary data (0s and 1s).   
 - **QAM (Quadrature Amplitude Modulation)** is a 5G standard. 
   - Passes some of the bits per one change by combining wave height and step. 
 - **The Trade-off**: 
-  - 16-QAM transffers 4. bits per time, 256-QAM - 8. bits. 
+  - 16-QAM transfers 4. bits per time, 256-QAM - 8. bits. 
   - Чем выше модуляция (256-QAM), тем быстрее летит интернет, но тем чище и идеальнее должен быть радиоэфир. Если есть помехи, данные исказятся.
 
 ### RF Propagation
@@ -22,11 +23,11 @@ is a whole data way before coverting to the radio wave.
 1. **RRC (Radio Resource Control)** - the "manager" of the connection.
    - **What it does**: 
      - Handles setting up the call, managing power, and moving the connection to a new tower if the user is driving a car (handover). 
-     - Does not carry user data (like YouTube videos), only carries signaling / control messages.
+     - Does not transfer / carry user data (like YouTube videos), only carries signaling, control messages to set up a connection, manage radio power, and handle handovers, like moving from one cell (tower) to another.
 2. **PDCP (Packet Data Convergence Protocol)** - the encryption level:
     - **What it does**: 
-      - Handles IP header compression and Ciphering/Integrity Protection. 
-      - Encrypts the user's data *(so that anyone listening to the radio waves cannot steal the information)*.
+      - Compresses IP headers to save bandwidth 
+      - Handles Ciphering/Integrity useer's data Protection *(so that anyone listening to the radio waves cannot steal the information)*.
 3. **RLC (Radio Link Control)** - segmentation and reassembly :
     - **What it does**: 
       - Chops data into smaller, manageable pieces before sending it down.
